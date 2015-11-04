@@ -1,0 +1,25 @@
+﻿Build started 15/2/2015 12:11:48.
+     1>Project "M:\kk\NetProbe\NetProbe\NetProbe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\NetProbe.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt NetProbe.cpp NetProbeH.cpp stdafx.cpp TCPclient.cpp TCPserver.cpp tinycthread.cpp UDPclient.cpp UDPserver.cpp
+         NetProbe.cpp
+     1>NetProbe.cpp(4): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+         NetProbeH.cpp
+     1>NetProbeH.cpp(4): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+         stdafx.cpp
+     1>stdafx.cpp(5): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+         TCPclient.cpp
+     1>TCPclient.cpp(4): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+         TCPserver.cpp
+     1>TCPserver.cpp(4): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+         tinycthread.cpp
+     1>tinycthread.cpp(26): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+         UDPclient.cpp
+     1>UDPclient.cpp(4): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+         UDPserver.cpp
+     1>UDPserver.cpp(3): fatal error C1083: Cannot open precompiled header file: 'Release\NetProbe.pch': No such file or directory
+     1>Done Building Project "M:\kk\NetProbe\NetProbe\NetProbe.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.23

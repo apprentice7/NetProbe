@@ -1,0 +1,15 @@
+as
+Project4 NetProbe v2 Demo
+- Released: 3 April 2015
+
+Remarks
+1. Most of features in marking scheme 2, 3 and 4 are finished
+2. It is not a complete version, e.g.,
+- It does not support non-existing directory for synchronization;
+- It does not support features in marking scheme 5, e.g., directory synchronization;
+- The program can only be run under Windows.
+3. You need to create the directory structure (at both Server and Client) in the following format:
+- name/cloud/, where name is the specified directory. All files in name/cloud/* will be synchonized;
+- some temporary files will be created under name/. These files facilite debug, and will not be synchronized.
+
+this is the end

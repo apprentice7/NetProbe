@@ -1,0 +1,30 @@
+asd
+Project4 NetProbe v2 Demo
+- Released: 3 April 2015
+
+Remarks
+1. Most of features in marking scheme 2, 3 and 4 are finished
+2. It is not a complete version, e.g.,
+- It does not support non-existing directory for synchronization;
+- It does not support features in marking scheme 5, e.g., directory synchronization;
+- The program can only be run under Windows.
+3. You need to create the directory structure (at both Server and Client) in the following format:
+- name/cloud/, where name is the specified directory. All files in name/cloud/* will be synchonized;
+- some temporary files will be created under name/. These files facilite debug, and will not be synchronized.
+
+Test Cases
+1. Create a directory: server\cloud\
+2. Create client1\cloud\, and put some files
+3. Create client2\cloud\, and put some files
+4. Open a terminal: NetProbe_v2 s o server\
+5. Open a new terminal: NetProbe_v2 c 127.0.0.1 client1\ (You will see all files in client will be synchornied to the server)
+6. Open a new terminal: NetProbe_v2 c 127.0.0.1 client2\ (You will see all files in the server will be downloaded by client2; also new files will be uploaded to the server and client1)
+7. Put new files in either client1\cloud\ or client2\cloud
+8. Edit some files in either client1\cloud\ or client2\cloud
+9. Delete some files in either client1\cloud\ or client2\cloud
+
+A demo video can be found at
+http://personal.ie.cuhk.edu.hk/~yl013/v2_demo.mp4
+
+i love 4180
+i lobeccc
